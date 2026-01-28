@@ -1,0 +1,13 @@
+services:
+  - type: web
+    name: rise-api
+    env: docker
+    repo: https://github.com/MaryRatiary/back-rise
+    region: oregon
+    plan: free
+    healthCheckPath: /health
+    envVars:
+      - key: ASPNETCORE_ENVIRONMENT
+        value: Production
+      - key: ASPNETCORE_URLS
+        value: http://+:5000

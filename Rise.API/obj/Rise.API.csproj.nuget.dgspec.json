@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/RatiaryMario/Desktop/Mety/platform-rise/backend/Rise.API/Rise.API.csproj": {}
+    "/Users/RatiaryMario/Desktop/Mety/platform-rise/backend/Rise.API/Rise.API/Rise.API.csproj": {}
   },
   "projects": {
-    "/Users/RatiaryMario/Desktop/Mety/platform-rise/backend/Rise.API/Rise.API.csproj": {
+    "/Users/RatiaryMario/Desktop/Mety/platform-rise/backend/Rise.API/Rise.API/Rise.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/RatiaryMario/Desktop/Mety/platform-rise/backend/Rise.API/Rise.API.csproj",
+        "projectUniqueName": "/Users/RatiaryMario/Desktop/Mety/platform-rise/backend/Rise.API/Rise.API/Rise.API.csproj",
         "projectName": "Rise.API",
-        "projectPath": "/Users/RatiaryMario/Desktop/Mety/platform-rise/backend/Rise.API/Rise.API.csproj",
+        "projectPath": "/Users/RatiaryMario/Desktop/Mety/platform-rise/backend/Rise.API/Rise.API/Rise.API.csproj",
         "packagesPath": "/Users/RatiaryMario/.nuget/packages/",
-        "outputPath": "/Users/RatiaryMario/Desktop/Mety/platform-rise/backend/Rise.API/obj/",
+        "outputPath": "/Users/RatiaryMario/Desktop/Mety/platform-rise/backend/Rise.API/Rise.API/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/RatiaryMario/.nuget/NuGet/NuGet.Config"
