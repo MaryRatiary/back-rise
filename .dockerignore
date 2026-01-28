@@ -1,0 +1,12 @@
+**/.git
+**/.gitignore
+**/.vs
+**/.vscode
+**/.DS_Store
+**/bin
+**/obj
+**/node_modules
+**/.env
+**/.env.local
+**/appsettings.Development.json
+Rise.db
