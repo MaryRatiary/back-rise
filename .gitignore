@@ -14,6 +14,26 @@ bld/
 [Ll]og/
 [Ll]ogs/
 
+# NuGet Package Manager - IMPORTANT!
+*.nupkg
+*.snupkg
+*.nuget
+.nuget/
+packages.lock.json
+project.json.lock
+project.lock.json
+.nuget.props
+.nuget.targets
+
+# NuGet packages directory
+packages/
+!packages/repositories.config
+
+# Entity Framework
+*.db
+*.db-wal
+*.db-shm
+
 # Visual Studio cache/options
 .vs/
 .vscode/
@@ -31,41 +51,34 @@ bld/
 !.vscode/extensions.json
 *.code-workspace
 
-# Rider
+# Rider / JetBrains
 .idea/
+.idea_modules/
 *.sln.iml
 *.swp
 *.swo
 *~
 
-# NuGet
-*.nupkg
-*.snupkg
-.nuget/
-
-# Entity Framework
-*.db
-*.db-wal
-*.db-shm
-
 # Environment variables
 .env
 .env.local
 .env.*.local
+.env.production.local
+.env.development.local
 
 # OS files
 .DS_Store
 Thumbs.db
+.AppleDouble
+.LSOverride
 
 # Temporary files
 *.tmp
 *.temp
 *.log
-
-# Node modules (if any frontend-related tools are used)
-node_modules/
-npm-debug.log
-yarn-error.log
+*.log.*
+*.bak
+*.backup
 
 # Build output
 dist/
@@ -77,17 +90,22 @@ build/
 .vscode/
 .idea/
 *.iml
+*.sublime-project
+*.sublime-workspace
 
 # Database files
 *.mdf
 *.ldf
 *.ndf
+*.sqlite
+*.sqlite3
 
 # User-specific files
 *.runsettings
 *.VisualState.xml
 *.DotSettings
 *.DotSettings.user
+Properties/launchSettings.json
 
 # Test results
 TestResults/
@@ -96,6 +114,7 @@ TestResults/
 
 # Publish
 PublishProfiles/
+PublishScripts/
 *.pubxml
 *.publishproj
 
@@ -103,19 +122,11 @@ PublishProfiles/
 AppPackages/
 BundleArtifacts/
 
-# NuGet v3's project.json files makes it harder to support updating both
-.nuget.props
-.nuget.targets
-
 # Local history for Visual Studio
 .localhistory/
 
 # BeatPulse healthcheck temp database
 healthchecksdb
-
-# Backup files
-*.bak
-*.backup
 
 # SSL certificates (if any)
 *.pfx
@@ -123,32 +134,50 @@ healthchecksdb
 *.crt
 *.key
 
-# Azure Pipelines
-.azure-pipelines/
-
-# GitHub Actions
-.github/workflows/
-
 # Docker
 docker-compose.override.yml
-.dockerignore
 
 # Settings files with sensitive data
 appsettings.Production.json
 appsettings.Staging.json
+appsettings.*.json
+!appsettings.Development.json
+!appsettings.json
 
 # Migrations backup
 Migrations/Backups/
 
-# Package lock files (optional - uncomment if you want to lock versions)
-# packages.lock.json
-
-# User secrets
-**/Properties/launchSettings.json
-
 # Coverage reports
 coverage/
 *.coverage
+OpenCover/
 
 # Profiler files
 *.nprof
+*.prof
+*.nref
+
+# Diagnostic files
+*.diagsession
+
+# Resharper cache
+_ReSharper*/
+*.resharper
+_ReSharper.*/
+
+# Code coverage
+opencover/
+opencoverage/
+
+# Temporary NuGet files
+.nupkg.metadata
+.nupkg.sha512
+
+# DotNet Core
+artifacts/
+
+# Signing files
+*.snk
+
+# Hot Reload
+.hotreload
