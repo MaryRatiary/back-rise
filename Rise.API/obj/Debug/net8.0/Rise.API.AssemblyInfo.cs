@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Rise.API")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9b6e48d7bda9fa958f84249821a7650c8444e19f")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0340b06a4bc16fe21a818ca8eb6c30836ef72fc3")]
 [assembly: System.Reflection.AssemblyProductAttribute("Rise.API")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Rise.API")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

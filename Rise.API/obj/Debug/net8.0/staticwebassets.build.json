@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "LgUrfjFK9FU1NIf0X/a+gKk5FVVV+p3JEVSIMdBaEQg=",
+  "Hash": "IpaX1cSblNoQEMMKxuJZICcAPU9MREwghArRwWMYCYU=",
   "Source": "Rise.API",
   "BasePath": "_content/Rise.API",
   "Mode": "Default",
@@ -74,6 +74,25 @@
       "OriginalItemSpec": "wwwroot/uploads/profiles/4eeaf6ab-4708-4d70-9004-c6ad2770641a_cover.jpg"
     },
     {
+      "Identity": "/Users/RatiaryMario/Desktop/Mety/platform-rise/backend/Rise.API/Rise.API/wwwroot/uploads/profiles/6402f19c-aef4-4711-be8d-6bafbe356bc4_profile.jpg",
+      "SourceId": "Rise.API",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/RatiaryMario/Desktop/Mety/platform-rise/backend/Rise.API/Rise.API/wwwroot/",
+      "BasePath": "_content/Rise.API",
+      "RelativePath": "uploads/profiles/6402f19c-aef4-4711-be8d-6bafbe356bc4_profile.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/uploads/profiles/6402f19c-aef4-4711-be8d-6bafbe356bc4_profile.jpg"
+    },
+    {
       "Identity": "/Users/RatiaryMario/Desktop/Mety/platform-rise/backend/Rise.API/Rise.API/wwwroot/uploads/profiles/711a589c-e277-41a6-8217-3113522d717e_profile.png",
       "SourceId": "Rise.API",
       "SourceType": "Discovered",
@@ -129,6 +148,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/uploads/profiles/8c309921-b2a6-4d33-b8db-5ccf25a5b0b2_profile.jpeg"
+    },
+    {
+      "Identity": "/Users/RatiaryMario/Desktop/Mety/platform-rise/backend/Rise.API/Rise.API/wwwroot/uploads/profiles/95f490e4-b988-46ca-9474-8b096452e80f_cover.jpg",
+      "SourceId": "Rise.API",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/RatiaryMario/Desktop/Mety/platform-rise/backend/Rise.API/Rise.API/wwwroot/",
+      "BasePath": "_content/Rise.API",
+      "RelativePath": "uploads/profiles/95f490e4-b988-46ca-9474-8b096452e80f_cover.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/uploads/profiles/95f490e4-b988-46ca-9474-8b096452e80f_cover.jpg"
     },
     {
       "Identity": "/Users/RatiaryMario/Desktop/Mety/platform-rise/backend/Rise.API/Rise.API/wwwroot/uploads/profiles/9c168eda-6365-46c4-acd9-5aae407175a7_profile.jpg",
@@ -188,6 +226,25 @@
       "OriginalItemSpec": "wwwroot/uploads/profiles/bbd901d7-a604-4337-b76a-1a9684ef5dbe_profile.jpg"
     },
     {
+      "Identity": "/Users/RatiaryMario/Desktop/Mety/platform-rise/backend/Rise.API/Rise.API/wwwroot/uploads/profiles/c11e6e3f-66d1-4e52-be9c-6ca109f37a3a_profile.png",
+      "SourceId": "Rise.API",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/RatiaryMario/Desktop/Mety/platform-rise/backend/Rise.API/Rise.API/wwwroot/",
+      "BasePath": "_content/Rise.API",
+      "RelativePath": "uploads/profiles/c11e6e3f-66d1-4e52-be9c-6ca109f37a3a_profile.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/uploads/profiles/c11e6e3f-66d1-4e52-be9c-6ca109f37a3a_profile.png"
+    },
+    {
       "Identity": "/Users/RatiaryMario/Desktop/Mety/platform-rise/backend/Rise.API/Rise.API/wwwroot/uploads/profiles/c38e0793-8602-4286-a3a4-1181fdb4a1d7_cover.jpg",
       "SourceId": "Rise.API",
       "SourceType": "Discovered",
@@ -243,6 +300,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/uploads/profiles/e7288f90-c1ad-40cf-9bae-f7cbf7fa9fe3_profile.jpg"
+    },
+    {
+      "Identity": "/Users/RatiaryMario/Desktop/Mety/platform-rise/backend/Rise.API/Rise.API/wwwroot/uploads/profiles/ed8c78cc-08c2-4811-b8ba-b77c8eeb41c6_cover.jpeg",
+      "SourceId": "Rise.API",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/RatiaryMario/Desktop/Mety/platform-rise/backend/Rise.API/Rise.API/wwwroot/",
+      "BasePath": "_content/Rise.API",
+      "RelativePath": "uploads/profiles/ed8c78cc-08c2-4811-b8ba-b77c8eeb41c6_cover.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/uploads/profiles/ed8c78cc-08c2-4811-b8ba-b77c8eeb41c6_cover.jpeg"
     }
   ]
 }

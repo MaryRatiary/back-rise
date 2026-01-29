@@ -60,7 +60,8 @@ namespace Rise.API.Services
                 Role = Enum.Parse<UserRole>(request.Role),
                 CreatedAt = DateTime.UtcNow,
                 UpdatedAt = DateTime.UtcNow,
-                IsActive = true
+                IsActive = true,
+                ProfileVisibility = "public"
             };
 
             _context.Users.Add(user);

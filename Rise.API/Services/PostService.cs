@@ -207,10 +207,26 @@ namespace Rise.API.Services
 
         public async Task<PostDTO?> CreatePostAsync(CreatePostRequest request, Guid userId)
         {
+            // Validate that EventId exists if provided
+            Guid? validEventId = null;
+            if (request.EventId.HasValue && request.EventId != Guid.Empty)
+            {
+                var eventExists = await _context.Events.AnyAsync(e => e.Id == request.EventId);
+                if (!eventExists)
+                {
+                    // If event doesn't exist, set to null instead of causing FK violation
+                    validEventId = null;
+                }
+                else
+                {
+                    validEventId = request.EventId;
+                }
+            }
+
             var post = new Post
             {
                 Id = Guid.NewGuid(),
-                EventId = request.EventId,
+                EventId = validEventId,
                 CreatedBy = userId,
                 Content = request.Content,
                 VideoUrl = request.VideoUrl,
@@ -229,6 +245,7 @@ namespace Rise.API.Services
                     post.Images.Add(new PostImage
                     {
                         Id = Guid.NewGuid(),
+                        PostId = post.Id,
                         ImageUrl = request.ImageUrls[i],
                         DisplayOrder = i,
                         CreatedAt = DateTime.UtcNow

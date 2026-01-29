@@ -23,7 +23,7 @@ namespace Rise.API.Utils
                 {
                     Id = Guid.NewGuid(),
                     FirstName = "Mario",
-                    LastName = "Ratiaty",
+                    LastName = "Ratiary",
                     Email = "maryratiary12@gmail.com",
                     PasswordHash = BCrypt.Net.BCrypt.HashPassword("Admin123!@"),
                     MatriculeNumber = "ADMIN001",
@@ -32,7 +32,8 @@ namespace Rise.API.Utils
                     Role = UserRole.Admin,
                     CreatedAt = DateTime.UtcNow,
                     UpdatedAt = DateTime.UtcNow,
-                    IsActive = true
+                    IsActive = true,
+                    ProfileVisibility = "public"
                 };
 
                 context.Users.Add(admin);
